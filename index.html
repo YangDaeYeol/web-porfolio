@@ -5,6 +5,7 @@
 	<title>백엔드 개발자 양대열</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -23,10 +24,43 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-
+	<!-- Final 스크린샷 Modal -->
+	<div class="modal fade" id="screenshot1" data-bs-backdrop="static"
+	data-bs-keyboard="false" tabindex="-1"
+	aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel"
+						style="color: black;">FinalProject ScreenShot</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close" id="closeModalBtn"></button>
+				</div>
+				<div class="modal-body" style="color: black;">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Semi 스크린샷 Modal -->
+	<div class="modal fade" id="screenshot2" data-bs-backdrop="static"
+	data-bs-keyboard="false" tabindex="-1"
+	aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel"
+						style="color: black;">SemiProject ScreenShot</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close" id="closeModalBtn2"></button>
+				</div>
+				<div class="modal-body" style="color: black;">
+					
+				</div>
+			</div>
+		</div>
+	</div>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
 			<a class="navbar-brand" href="index.html"><span>Y</span>angDaeYeol</a>
@@ -56,7 +90,7 @@
 						<h1>양대열</h1>
 						<h2>I'm a
 							<span class="txt-rotate" data-period="500"
-								data-rotate='[  "백앤드 개발자", "신입 개발자"]'></span>
+								data-rotate='[  "백앤드 개발자", "신입"]'></span>
 						</h2>
 					</div>
 				</div>
@@ -125,7 +159,7 @@
 				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 					<div class="block-18 shadow">
 						<div class="text">
-							<strong class="number" data-number="100">0</strong>
+							<strong class="number" data-number="2">0</strong>
 							<span>Complete Projects</span>
 						</div>
 					</div>
@@ -185,7 +219,7 @@
 								<span class="date">2015-2020</span>
 								<h2>컴퓨터정보학과 전공</h2>
 								<span class="position">Incheon Jaeneung University</span>
-								<p>Java와 DataBase, Javascript, </p>
+								<p>Java와 DataBase, Javascript 등 프로그래밍 언어을 배웠습니다. 이때 배운 기본지식으로 개발자로서의 길을 열어주었습니다.</p>
 							</div>
 						</div>
 					</div>
@@ -195,107 +229,32 @@
 						<div class="row progress-circle mb-5">
 							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
-
-									<!-- Progress bar 1 -->
-									<div class="progress mx-auto" data-value='90'>
-										<span class="progress-left">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<span class="progress-right">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<div
-											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-											<div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
-										</div>
+									<h2 class="h5 font-weight-bold text-center mb-4">LANGUAGE</h2>
+									<div>
+										<img src="images/11111.png" width="100%">
 									</div>
-									<!-- END -->
-
-									<!-- Demo info -->
-									<div class="row text-center mt-4">
-										<div class="col-6 border-right">
-											<div class="h4 font-weight-bold mb-0">28%</div><span
-												class="small text-gray">Last week</span>
-										</div>
-										<div class="col-6">
-											<div class="h4 font-weight-bold mb-0">60%</div><span
-												class="small text-gray">Last month</span>
-										</div>
-									</div>
-									<!-- END -->
 								</div>
 							</div>
 
 							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
-
-									<!-- Progress bar 1 -->
-									<div class="progress mx-auto" data-value='80'>
-										<span class="progress-left">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<span class="progress-right">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<div
-											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-											<div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
-										</div>
+									<h2 class="h5 font-weight-bold text-center mb-4">TOOLS</h2>
+									<div>
+										<img src="images/22222.png" width="100%">
 									</div>
-									<!-- END -->
-
-									<!-- Demo info -->
-									<div class="row text-center mt-4">
-										<div class="col-6 border-right">
-											<div class="h4 font-weight-bold mb-0">28%</div><span
-												class="small text-gray">Last week</span>
-										</div>
-										<div class="col-6">
-											<div class="h4 font-weight-bold mb-0">60%</div><span
-												class="small text-gray">Last month</span>
-										</div>
-									</div>
-									<!-- END -->
 								</div>
 							</div>
 
 							<div class="col-lg-4 mb-4">
 								<div class="bg-white rounded-lg shadow p-4">
-									<h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
-
-									<!-- Progress bar 1 -->
-									<div class="progress mx-auto" data-value='75'>
-										<span class="progress-left">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<span class="progress-right">
-											<span class="progress-bar border-primary"></span>
-										</span>
-										<div
-											class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-											<div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
-										</div>
+									<h2 class="h5 font-weight-bold text-center mb-4">VERSION CONTROL</h2>
+									<div>
+										<img src="images/33333.png" width="100%">
 									</div>
-									<!-- END -->
-
-									<!-- Demo info -->
-									<div class="row text-center mt-4">
-										<div class="col-6 border-right">
-											<div class="h4 font-weight-bold mb-0">28%</div><span
-												class="small text-gray">Last week</span>
-										</div>
-										<div class="col-6">
-											<div class="h4 font-weight-bold mb-0">60%</div><span
-												class="small text-gray">Last month</span>
-										</div>
-									</div>
-									<!-- END -->
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<!-- <div class="row">
 							<div class="col-md-6 animate-box">
 								<div class="progress-wrap ftco-animate">
 									<h3>React</h3>
@@ -362,7 +321,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 					<div id="page-4" class="page four">
 						<h2 id="projects-section" class="heading">Projects</h2>
@@ -371,25 +330,24 @@
 								<span class="flaticon-ideas"></span>
 							</div>
 							<div class="text pl-3">
-								<span class="date">2019.09-2020.08</span>
+								<span class="date">2022.01-2022.02</span>
 								<div class="d-flex">
-									<h2>웰리스 여행 상품 예약 플랫폼 개발</h2>
-									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-											class="btn btn-outline-secondary"
-											href="https://github.com/congchu/portfolio-template-2">Github</a>&nbsp;<a
-											class="btn btn-outline-secondary" target="_blank"
-											href="/images/project_1_screenshot.png">스크린샷</a>&nbsp;<a
-											class="btn btn-outline-secondary" target="_blank"
-											href="https://www.wellytravel.com/">Link</a>
+									<h2>온라인 경매사이트</h2>
+									<div>&nbsp;
+										<a class="btn btn-outline-secondary" target="_blank" class="btn btn-outline-secondary"
+											href="https://github.com/YangDaeYeol/finalproject">Github</a>&nbsp;
+										<a class="btn btn-outline-secondary" data-toggle="modal"
+											href="#screenshot1">스크린샷</a>&nbsp;
+										<a class="btn btn-outline-secondary" target="_blank"
+											href="http://61.78.121.242:9999/GDJ41_nbif_final/">Link</a>
 									</div>
 								</div>
-								<span class="position">주식회사 더라피스</span>
-								<div> <b class="text-dark">기술 스택 : </b>React, Typescript, Next.js, Styled-Component,
-									MobX
+								<span class="position">Final Project / NBIF조</span>
+								<div> <b class="text-dark">기술 스택 : </b>Spring Boot, JSP, OracleDB, Bootstrap, jQuery
 								</div>
-								<div> <b class="text-dark">주요 기능 : </b> 회원 관리 및 SNS 로그인, 상품 리스트 확인, 상품 상세 정보
-									확인, 예약 관리, 결제 </div>
-								<p> React </p>
+								<div> <b class="text-dark">주요 기능 : </b>일반 및 실시간 경매, 경매물품 등록, 마이페이지, 쪽지  </div>
+								<div> <b class="text-dark">구현 기능 : </b>실시간 경매, 쪽지 및 쪽지알람, 검색, 경매물품 낙찰처리  </div>
+								<p> Spring Boot </p>
 							</div>
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -397,41 +355,24 @@
 								<span class="flaticon-ideas"></span>
 							</div>
 							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Top 5 LeaderShip Exellence Winner</h2>
-								<span class="position">Cambridge University</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences
-									fly
-									into your mouth.</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Top 4 Web Tester</h2>
-								<span class="position">Cambridge University</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences
-									fly
-									into your mouth.</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Art &amp; Creative Director</h2>
-								<span class="position">Cambridge University</span>
-								<p>A small river named Duden flows by their place and supplies it with the necessary
-									regelialia. It is a paradisematic country, in which roasted parts of sentences
-									fly
-									into your mouth.</p>
+								<span class="date">2021.11-2021.12</span>
+								<div class="d-flex">
+									<h2>온/오프라인 강의 플랫폼</h2>
+									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
+											class="btn btn-outline-secondary"
+											href="https://github.com/YangDaeYeol/susemi">Github</a>&nbsp;<a
+											class="btn btn-outline-secondary" data-toggle="modal"
+											href="#screenshot2">스크린샷</a>&nbsp;<a
+											class="btn btn-outline-secondary" target="_blank"
+											href="http://61.78.121.242:9999/GDJ41_jiping_semi/">Link</a>
+									</div>
+								</div>
+								<span class="position">Semi Project / 수세미조</span>
+								<div> <b class="text-dark">기술 스택 : </b>Servlet, JSP, OracleDB, Bootstrap, jQuery
+								</div>
+								<div> <b class="text-dark">주요 기능 : </b> 강의등록, 검색, 강의 상세페이지, 댓글리뷰 </div>
+								<div> <b class="text-dark">구현 기능 : </b> 이메일인증, 회원가입, 검색, 메인페이지 리스트, 카테고리별 리스트 </div>
+								<p> Servlet </p>
 							</div>
 						</div>
 					</div>
@@ -556,7 +497,14 @@
 	<script src="js/scrollax.min.js"></script>
 
 	<script src="js/main.js"></script>
-
+	<script>
+		$("#closeModalBtn").click(e=> {
+			$("#screenshot1").modal('hide');
+		});
+		$("#closeModalBtn2").click(e=> {
+			$("#screenshot2").modal('hide');
+		});
+	</script>
 </body>
 
 </html>
